@@ -1,0 +1,45 @@
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+venv/
+.env
+
+
+.vscode/
+.idea/
+*.swp
+
+
+.DS_Store
+Thumbs.db
+
+
+*.log
+exports/
+logs/
+debate_log.txt
+
+# Jupyter checkpoints (if using)
+.ipynb_checkpoints/
+
+# Pytest / Coverage
+.pytest_cache/
+coverage.*
+.cache/
+*.cover
+.hypothesis/
+
+# Dependency folders
+*.egg-info/
+dist/
+build/
+
+# Environment variables (API keys etc.)
+.env
+.env.local
+.env.*.local
+
+# Generated DAG diagrams and visual outputs
+dag_diagram.png
